@@ -1,0 +1,4 @@
+apiVersion: v1
+description: A Helm chart for Kubernetes
+name: ngp-369
+version: 0.1.0-SNAPSHOT
