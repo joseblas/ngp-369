@@ -28,7 +28,7 @@ trait Service extends Protocols {
   def config: Config
   val logger: LoggingAdapter
 
-  def hello =  "Hello world"
+  def helo =  "Helo world"
 
   lazy val ipApiConnectionFlow: Flow[HttpRequest, HttpResponse, Any] =
     Http().outgoingConnection(config.getString("services.ip-api.host"), config.getInt("services.ip-api.port"))
